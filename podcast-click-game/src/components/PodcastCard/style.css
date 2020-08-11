@@ -1,0 +1,10 @@
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.img-container{
+   margin-left: 50px;
+   margin-right: 50px;
+  
+}
