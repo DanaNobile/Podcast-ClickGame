@@ -1,6 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Wrapper from "./components/Wrapper/wrapper";
+import Title from "./components/Title/title";
+import PodcastCard from "./components/PodcastCard/podcast";
+import podcasts from "./podcasts.json";
+
+
 
 function App() {
   return (
