@@ -3,6 +3,7 @@ import PodcastCard from "./components/PodcastCard/podcast";
 import Wrapper from "./components/Wrapper/wrapper";
 import Title from "./components/Title/title";
 import podcasts from "./podcasts.json";
+import Bootstrap from "./components/Bootstrap";
 
 
 
@@ -21,6 +22,7 @@ class App extends Component {
 
   render() {
     return (
+      <Bootstrap />,
       <Wrapper>
         <Title>My Favorite True Crime Podcasts</Title>
         {this.state.podcasts.map(podcast => (
