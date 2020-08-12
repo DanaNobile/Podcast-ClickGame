@@ -5,7 +5,7 @@ import "./style.css";
 //stateless component
 const Score = props => (
     <div className="gameScore">
-        <p>Your goal is to try and click all of the podcasts, without clicking the same image twice.
+        <p>Your goal is to try and click all of the podcasts, without clicking the same one twice.
             <br>
             </br>
             <br></br>
