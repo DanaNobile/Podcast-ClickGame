@@ -23,7 +23,7 @@ class App extends Component {
     let clickedPodcasts = this.state.clickedPodcasts;
 
     if (clickedPodcasts.includes(id)) {
-      this.setState({ cclickedPodcasts: [], score: 0, status: "Game Over! Sorry, you lost. Click to play again!" });
+      this.setState({ clickedPodcasts: [], score: 0, status: "Game Over! Sorry, you lost. Click to play again!" });
       return;
     } else {
       clickedPodcasts.push(id)
@@ -49,10 +49,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Podcast Clicky Game</h1>
+          <h1 className="App-title">True Crime Podcast Clicky Game</h1>
           <p className="App-intro">
-            Your goal is to try and click all of the podcasts, without clicking the same image twice! Look out though! The images start to move on you, so flex your memory muscle!
-        </p>
+
+          </p>
         </header>
         <Score total={this.state.score}
           goal={12}
@@ -69,7 +69,7 @@ class App extends Component {
           ))}
         </Wrapper>
         <footer>
-          <p>Designed and built by Dana Nobile.</p>
+          <p>Thanks for playing the True Crime Podcast Clicky Game</p>
         </footer>
       </div>
     );
